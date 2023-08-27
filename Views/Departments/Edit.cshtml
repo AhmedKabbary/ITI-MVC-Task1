@@ -1,0 +1,13 @@
+﻿@model Department
+@{
+    Layout = null;
+}
+
+<form method="post">
+    <label>Name:</label>
+    <input type="text" name="Name" value="@Model.Name" />
+
+    <br />
+
+    <input type="submit" value="update" />
+</form>
